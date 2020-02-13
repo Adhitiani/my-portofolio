@@ -1,0 +1,247 @@
+/***** BASE STYLES *****/
+body {
+font-family: 'Montserrat', sans-serif;
+color: #087e8b;
+}
+
+/*css reset*/
+
+  * {
+    margin: 0;
+    Padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.twothird-width
+{
+  width: 800px;
+  float: left;
+}
+
+/*** HEADER ***/
+
+header {
+    height: 800px;
+    background: url('../img/cover5.png');
+    background-size: cover;
+}
+
+nav {
+
+    float: left;
+    align-items: center;
+    margin-left: 100px;
+
+
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+nav ul li {
+    text-transform: none;
+    text-decoration:none;
+    font-size: 18px;
+    text-align: center;
+    width: 400px;
+    padding: 50px 0;
+    align-content: space-around;
+    font-weight: bold;
+}
+
+nav ul li h2{
+  font-size: 40px;
+  font-family: 'Montez', cursive;
+  color: #a8c40d;
+  font-weight: bold;
+
+}
+
+nav ul li h2 span {
+  display: inline-flex;
+}
+
+nav ul li h2 span:nth-child(even){
+  overflow:hidden;
+  transition:ease-in-out 0.8s;
+  color:#97b9b2;
+  letter-spacing:-1em;
+}
+nav ul li h2:hover span:nth-child(even){
+  letter-spacing:0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #087e8b;
+}
+
+a:hover {
+  color: #a8c40d;
+  font-size: 150%;
+}
+
+.intro h2 {
+  font-size: 50px;
+  text-align: center;
+  width: 1000px;
+  clear: both;
+  padding: 200px 0 20px 25px;
+  align-items: center;
+  margin-left: 180px;
+  margin-top: 200px;
+  color: black;
+  font-weight: bold;
+}
+
+.intro h2 span {
+  color: #087e8b;
+}
+
+
+/*** Portofolio ***/
+
+#portofolio {
+  height: 550px;
+}
+
+#portofolio h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin: 50px auto;
+  padding-bottom: 20px;
+
+}
+
+#portofolio .third-width {
+  text-align: center;
+}
+
+.third-width h3 {
+  margin-top: 20px;
+  line-height: 40px;
+  font-size: 20px;
+
+}
+
+.third-width p {
+  margin: auto 30px;
+  padding: 10px;
+  line-height: 30px;
+}
+
+/*** ABOUT ***/
+
+#about {
+  background-color: #087e8b;
+  color: white;
+  height: 650px;
+}
+
+
+#about p {
+  font-size: 18px;
+  text-align: center;
+  margin-left: 10px;
+  line-height: 30px;
+  margin-top: 10px;
+
+}
+
+.intro h5 {
+  margin-left: 10px;
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.ido h5 {
+  margin-left: 20px;
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+.ido ul li {
+  display: inline-block;
+  width: 350px;
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 30px;
+  padding-right: 20px;
+
+
+  }
+
+.ido img {
+  text-align: center;
+  margin: 10px;
+
+}
+
+.ido p {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+.ido h3 {
+  font-size: 18px;
+}
+
+
+/**** Contact *****/
+
+#contact {
+  height: 210px;
+  background-color: #095156;
+  color: white;
+}
+
+.full-width h2 {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.half-width {
+  text-align: center;
+  font-size: 18px;
+  }
+
+.half-width h3 {
+  padding: 20px;
+}
+
+.half-width a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.full-width p {
+  text-align: center;
+  font-size: 14px;
+}
