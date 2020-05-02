@@ -91,6 +91,62 @@ header h2:hover span:nth-child(even){
     background: url('../img/cover5.png');
     background-size: cover;
 }
+/*
+nav {
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #087e8b;
+  width: 100%;
+    height: 60px;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+}
+
+}
+nav ul li {
+    text-transform: none;
+    text-decoration:none;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+nav ul li h2{
+  font-size: 40px;
+  font-family: 'Montez', cursive;
+  color: #a8c40d;
+  font-weight: bold;
+
+}
+
+nav ul li h2 span {
+  display: inline-flex;
+}
+
+nav ul li h2 span:nth-child(even){
+  overflow:hidden;
+  transition:ease-in-out 0.8s;
+  color:#97b9b2;
+  letter-spacing:-1em;
+}
+nav ul li h2:hover span:nth-child(even){
+  letter-spacing:0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #a8c40d;
+}
+
+a:hover {
+  color: #a8c40d;
+  font-size: 150%;
+}
+ */
 
 .intro h2 {
   font-size: 50px;
@@ -112,20 +168,20 @@ header h2:hover span:nth-child(even){
 /*** Portofolio ***/
 
 #portofolio {
-  height: 650px;
+  height: 550px;
 }
 
 #portofolio h2 {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
-  padding: 65px 0 32px 0;
+  margin: 50px auto;
+  padding-bottom: 20px;
 
 }
 
 #portofolio .third-width {
   text-align: center;
-  margin-top: 32px;
 }
 
 .third-width h3 {
@@ -155,14 +211,16 @@ header h2:hover span:nth-child(even){
   text-align: center;
   margin-left: 10px;
   line-height: 30px;
-  margin-top: 24px;
+  margin-top: 10px;
 
 }
 
-.about-intro {
+.about-intro h5 {
+  margin-left: 10px;
+  margin-top: 65px;
   font-size: 25px;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 50px;
 }
 
 .ido h5 {
@@ -204,42 +262,37 @@ header h2:hover span:nth-child(even){
 
 /**** Contact *****/
 
-footer {
+#contact {
   height: 210px;
   background-color: #095156;
   color: white;
 }
 
-footer h2 {
-  padding: 20px;
-  font-size: 24px;
+}
+
+.full-width h2 {
+  font-size: 25px;
   text-align: center;
+  padding-top: 30px;
 }
 
-#contact {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0 100px 0 100px;
-}
-
-#email-header {
-  margin-bottom: 20px
-}
-.email a {
-  text-decoration: none;
-  color: white;
+.half-width {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
   }
 
-.social-media h3 {
-  margin: 0 0 10px 30px;
-}
-.social-media a i {
-  margin: 0 10px 0 10px;
+.half-width h3 {
+  padding: 20px;
 }
 
-.Copyright {
+.half-width a {
+  text-decoration: none;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.full-width p {
   text-align: center;
-  margin-top: 30px;
-  font-size: 12px;
+  font-size: 14px;
 }
