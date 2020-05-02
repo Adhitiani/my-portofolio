@@ -91,62 +91,6 @@ header h2:hover span:nth-child(even){
     background: url('../img/cover5.png');
     background-size: cover;
 }
-/*
-nav {
-  display: flex;
-  align-items:center;
-  justify-content: space-between;
-  flex-direction: row;
-  background-color: #087e8b;
-  width: 100%;
-    height: 60px;
-    opacity: 0.9;
-    position: fixed;
-    top: 0;
-}
-
-}
-nav ul li {
-    text-transform: none;
-    text-decoration:none;
-    font-size: 14px;
-    text-align: center;
-    font-weight: bold;
-
-}
-
-nav ul li h2{
-  font-size: 40px;
-  font-family: 'Montez', cursive;
-  color: #a8c40d;
-  font-weight: bold;
-
-}
-
-nav ul li h2 span {
-  display: inline-flex;
-}
-
-nav ul li h2 span:nth-child(even){
-  overflow:hidden;
-  transition:ease-in-out 0.8s;
-  color:#97b9b2;
-  letter-spacing:-1em;
-}
-nav ul li h2:hover span:nth-child(even){
-  letter-spacing:0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #a8c40d;
-}
-
-a:hover {
-  color: #a8c40d;
-  font-size: 150%;
-}
- */
 
 .intro h2 {
   font-size: 50px;
@@ -168,20 +112,20 @@ a:hover {
 /*** Portofolio ***/
 
 #portofolio {
-  height: 550px;
+  height: 650px;
 }
 
 #portofolio h2 {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
-  margin: 50px auto;
-  padding-bottom: 20px;
+  padding: 65px 0 32px 0;
 
 }
 
 #portofolio .third-width {
   text-align: center;
+  margin-top: 32px;
 }
 
 .third-width h3 {
@@ -211,16 +155,14 @@ a:hover {
   text-align: center;
   margin-left: 10px;
   line-height: 30px;
-  margin-top: 10px;
+  margin-top: 24px;
 
 }
 
-.about-intro h5 {
-  margin-left: 10px;
-  margin-top: 65px;
+.about-intro {
   font-size: 25px;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .ido h5 {
@@ -262,37 +204,42 @@ a:hover {
 
 /**** Contact *****/
 
-#contact {
+footer {
   height: 210px;
   background-color: #095156;
   color: white;
 }
 
-}
-
-.full-width h2 {
-  font-size: 25px;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.half-width {
-  margin-top: 20px;
-  text-align: center;
-  font-size: 18px;
-  }
-
-.half-width h3 {
+footer h2 {
   padding: 20px;
+  font-size: 24px;
+  text-align: center;
 }
 
-.half-width a {
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 100px 0 100px;
+}
+
+#email-header {
+  margin-bottom: 20px
+}
+.email a {
   text-decoration: none;
   color: white;
-  padding-bottom: 20px;
+  }
+
+.social-media h3 {
+  margin: 0 0 10px 30px;
+}
+.social-media a i {
+  margin: 0 10px 0 10px;
 }
 
-.full-width p {
+.Copyright {
   text-align: center;
-  font-size: 14px;
+  margin-top: 30px;
+  font-size: 12px;
 }
