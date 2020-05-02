@@ -38,33 +38,81 @@ color: #087e8b;
 /*** HEADER ***/
 
 header {
-    height: 800px;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background-color: #087e8b;
+  width: 100%;
+  height: 60px;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+
+}
+
+nav a {
+  font-weight: bold;
+    text-decoration: none;
+    color: #a8c40d;
+    margin: 0 32px 0 32px;
+    transition:  0.3s;
+
+    }
+
+  a:hover, a.selected {
+    color: white;
+    }
+
+header h2 {
+  font-size:28px;
+  font-family: 'Montez', cursive;
+  color: #a8c40d;
+  font-weight: bold;
+  margin-left: 32px
+  }
+
+header h2 span {
+  display: inline-flex;
+}
+header span:nth-child(even){
+  overflow:hidden;
+  transition:ease-in-out 0.8s;
+  color:#97b9b2;
+  letter-spacing:-1em;
+}
+header h2:hover span:nth-child(even){
+  letter-spacing:0;
+}
+
+.intro {
+    height: 650px;
     background: url('../img/cover5.png');
     background-size: cover;
 }
-
+/*
 nav {
-
-    float: left;
-    align-items: center;
-    margin-left: 100px;
-
-
-
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #087e8b;
+  width: 100%;
+    height: 60px;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
 }
 
-nav ul li{
-    display: inline-block;
 }
 nav ul li {
     text-transform: none;
     text-decoration:none;
-    font-size: 18px;
+    font-size: 14px;
     text-align: center;
-    width: 400px;
-    padding: 50px 0;
-    align-content: space-around;
     font-weight: bold;
+
 }
 
 nav ul li h2{
@@ -91,23 +139,23 @@ nav ul li h2:hover span:nth-child(even){
 
 nav ul li a {
   text-decoration: none;
-  color: #087e8b;
+  color: #a8c40d;
 }
 
 a:hover {
   color: #a8c40d;
   font-size: 150%;
 }
+ */
 
 .intro h2 {
   font-size: 50px;
   text-align: center;
   width: 1000px;
   clear: both;
-  padding: 200px 0 20px 25px;
+  padding: 300px 0 20px 25px;
   align-items: center;
   margin-left: 180px;
-  margin-top: 200px;
   color: black;
   font-weight: bold;
 }
@@ -167,9 +215,9 @@ a:hover {
 
 }
 
-.intro h5 {
+.about-intro h5 {
   margin-left: 10px;
-  margin-top: 50px;
+  margin-top: 65px;
   font-size: 25px;
   text-align: center;
   padding-top: 50px;
@@ -220,6 +268,8 @@ a:hover {
   color: white;
 }
 
+}
+
 .full-width h2 {
   font-size: 25px;
   text-align: center;
@@ -227,6 +277,7 @@ a:hover {
 }
 
 .half-width {
+  margin-top: 20px;
   text-align: center;
   font-size: 18px;
   }
