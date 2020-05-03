@@ -91,62 +91,7 @@ header h2:hover span:nth-child(even){
     background: url('../img/cover5.png');
     background-size: cover;
 }
-/*
-nav {
-  display: flex;
-  align-items:center;
-  justify-content: space-between;
-  flex-direction: row;
-  background-color: #087e8b;
-  width: 100%;
-    height: 60px;
-    opacity: 0.9;
-    position: fixed;
-    top: 0;
-}
 
-}
-nav ul li {
-    text-transform: none;
-    text-decoration:none;
-    font-size: 14px;
-    text-align: center;
-    font-weight: bold;
-
-}
-
-nav ul li h2{
-  font-size: 40px;
-  font-family: 'Montez', cursive;
-  color: #a8c40d;
-  font-weight: bold;
-
-}
-
-nav ul li h2 span {
-  display: inline-flex;
-}
-
-nav ul li h2 span:nth-child(even){
-  overflow:hidden;
-  transition:ease-in-out 0.8s;
-  color:#97b9b2;
-  letter-spacing:-1em;
-}
-nav ul li h2:hover span:nth-child(even){
-  letter-spacing:0;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #a8c40d;
-}
-
-a:hover {
-  color: #a8c40d;
-  font-size: 150%;
-}
- */
 
 .intro h2 {
   font-size: 50px;
@@ -168,42 +113,65 @@ a:hover {
 /*** Portofolio ***/
 
 #portofolio {
-  height: 550px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 80px 48px 100px;
 }
 
 #portofolio h2 {
   font-size: 25px;
   text-align: center;
   font-weight: bold;
-  margin: 50px auto;
-  padding-bottom: 20px;
+  margin: 60px 0 20px 0
+  }
 
+.work {
+  display: inline-block;
+  width: 300px;
+  height: 350px;
+  margin: 2.5em 0.5em;
+  transition: transform .5s;
 }
 
-#portofolio .third-width {
-  text-align: center;
+.work a {
+  text-decoration: none;
+  color: inherit;
+  }
+
+.work a:hover {
+  color: black;
 }
 
-.third-width h3 {
-  margin-top: 20px;
-  line-height: 40px;
-  font-size: 20px;
-
+.work a:hover img {
+  transform: scale(1.5);
 }
 
-.third-width p {
-  margin: auto 30px;
-  padding: 10px;
-  line-height: 30px;
+.work1, .work4 {
+  margin-left: 80px;
 }
+
+.mywork img {
+  max-width: 300px;
+  max-height: 300px;
+  border: 1px solid #087e8b;
+  box-shadow: 5px 3px 3px  #087e8b;
+}
+
+.mywork h3 {
+  padding: 12px 0 12px 0;
+}
+
 
 /*** ABOUT ***/
 
 #about {
   background-color: #087e8b;
   color: white;
-  height: 650px;
-}
+  height: auto;
+  margin: 0 auto;
+  padding: 32px 80px 48px 80px;
+  }
 
 
 #about p {
@@ -215,18 +183,18 @@ a:hover {
 
 }
 
-.about-intro h5 {
-  margin-left: 10px;
-  margin-top: 65px;
-  font-size: 25px;
+.about-intro h2 {
+  font-size: 32px;
   text-align: center;
-  padding-top: 50px;
-}
+  font-weight: bold;
+  margin: 30px auto;
+  }
 
-.ido h5 {
+
+.ido h2 {
   margin-left: 20px;
   margin-top: 50px;
-  font-size: 25px;
+  font-size: 28px;
   text-align: center;
   padding-bottom: 30px;
 
